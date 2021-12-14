@@ -1,0 +1,23 @@
+.body{
+    background-color: brown;
+}
+
+
+.panneau{
+
+    display: flex ;
+    margin-top: 150px;
+    align-content: center;
+    justify-content: center;
+}
+.bouton{
+    display: grid;
+    padding-top: 100px;
+    grid-template-columns:  1fr 1fr;
+    row-gap: 50px;
+}
+.bouton button{
+    margin: auto;
+    width: 400px;
+    height: 50px;
+}
